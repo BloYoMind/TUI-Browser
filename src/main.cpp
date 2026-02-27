@@ -14,7 +14,7 @@ int main() {
 
     if (curl) {
         std::string html;
-        curl_easy_setopt(curl, CURLOPT_URL, "https://example.com");
+        curl_easy_setopt(curl, CURLOPT_URL, "https://www.google.com");
         curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, write_callback);
         curl_easy_setopt(curl, CURLOPT_WRITEDATA, &html);
 
