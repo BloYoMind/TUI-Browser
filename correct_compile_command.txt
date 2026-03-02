@@ -1,0 +1,1 @@
+g++ src/main.cpp -I"C:\CURL\curl-8.18.0_5-win64-mingw\curl-8.18.0_5-win64-mingw\include" -L"C:\CURL\curl-8.18.0_5-win64-mingw\curl-8.18.0_5-win64-mingw\lib" -lcurl -o main.exe
