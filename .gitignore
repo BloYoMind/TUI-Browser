@@ -1,0 +1,12 @@
+# Build artifacts
+*.exe
+*.o
+*.obj
+*.dll
+*.lib
+*.exp
+*.pdb
+
+# Build directories
+build/
+out/
